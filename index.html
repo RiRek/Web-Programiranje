@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panevropski univerzitet Apeiron</title>
+    
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script> 
+   
+    <link rel="stylesheet" href="css/style.css">
+   
+    <script src="js/fa.js"></script>
+</head> 
+
+<body onload="choice()">
+   
+<div class="choice">
+    <div class="two_choices text_center">
+        <p class="fs-1" id="date" style="font-weight: bolder;"><span></span></p>
+        <p class="fs-2" style="font-weight: bolder;">Tačno je <span id="hours"></span>:<span id="mins"></span></p>
+        <div class="line">
+
+        </div>
+        <p class="fs-1 fs-italic" style="font-weight: bolder; ">
+        Izaberite temu</p>
+        <div class="row justify-content-evenly flexbox-center" style="margin-top: 50px;">
+            <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-10 col-10" >
+<button class="light">
+    Svijetla 
+</button>
+            </div>
+            <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-10 col-10" id="dark">
+                <button class="dark">
+                    Tamna 
+                </button>
+            </div>
+        </div>
+    </div>
+</div> 
+   
+    <nav class="nav nav_top">
+        <div class="row">
+            <p><img src="slike/apeironlogo.png" alt=""></p>
+            <ul class="fs-5 none" >
+                <li>
+                    <a href="#" class="black">MS Teams</a>
+                </li>
+                <li>
+                    <a href="#" class="black">Oglasna Tabla</a>
+                </li>
+                <li>
+                    <a href="#" class="black">Primjedbe i Prijedlozi</a>
+                </li>
+                <li>
+                    <a href="#" class="black">Biblioteka</a>
+                </li>
+                <li>
+                    <a href="#" class="black">Kontakt</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <button class="toggle">
+        <i class="fas fa-bars"></i>
+    </button>
+   
+    
+<section id="home">
+   
+    <div class="container">
+        <div class="row flexbox-center">
+            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                <h1 class="display-4 purple">
+                    APEIRON-univerzitet kojem vjerujemo! 
+                </h1>
+                <h1 class="display-6 gray">
+                    Preuzmi kontrolu nad svojom karijerom! Tvoj univerzitet, tvoja budućnost!
+                </h1>
+                <a href="#" class="btn-purple">
+                    Saznaj Više <span>&rarr;</span>
+                    
+                  </a>
+            </div>
+
+
+            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+<img src="slike/hero-img.png" class="img-fluid" alt="">
+
+                </div>
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <div class="container bg-white">
+        <div class="row flexbox-center">
+            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+<p class="lead purple-light">O UNIVERZITETU</p>
+<p class="fs-3 purple">
+    "Univerzitet evropskih znanja" / "Univerzitet kojem vjerujemo"
+</p>
+<a href="#" class="btn-purple">
+    Saznaj Više <span>&larr;</span>
+</a>
+            </div>
+            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                <img src="slike/about.jpg" class="img-fluid img_hover_scale" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="margin_top_section text_center" id="values">
+    <div class="container">
+    
+           
+            <p class="fs-1 purple" style="font-weight: bolder;">
+                UNIVERZITET ORIJENTISAN PREMA STUDENTU!
+            </p>
+     
+        <div class="row justify-content-evenly" style="margin-top: 50px;" >
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12" id="box_shadow">
+  <img src="slike/osnovne.jpg" id="img_values" class="img-fluid" alt="">
+  <p class="fs-3 purple fs-italic" style="font-weight: bolder;" >Osnovne Studije</p>
+  
+            </div>
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12" id="box_shadow">
+                <img src="slike/master.JPG" id="img_values" class="img-fluid" alt="">
+                <p class="fs-3 purple fs-italic" style="font-weight: bolder;" >Master Studije</p>
+               
+            </div>
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12" id="box_shadow">
+                <img src="slike/doktor.JPG" id="img_values" class="img-fluid" alt="">
+                <p class="fs-3 purple fs-italic" style="font-weight: bolder;" >Doktorske Studije</p>
+                
+            </div>
+        </div>
+
+        <div class="row justify-content-evenly" style="margin-top: 50px;" id="icons">
+        <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-5 col-sm-5 col-12" id="box_shadow">
+            <i class="fas fa-school" style="color: #4154f1; font-size: 50px;"></i>
+            <p class="fs-1 purple" style="font-weight: bolder;">
+            7 </p>
+            <p class="lead small fs-italic">
+                FAKULTETA
+
+
+            </p>
+        </div>
+
+
+        <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-5 col-sm-5 col-12" id="box_shadow">
+            <i class="far fa-address-book m_icon" style="color: #ee6c20; font-size: 50px;"></i>
+            <p class="fs-1 purple" style="font-weight: bolder;">
+            34 </p>
+            <p class="lead small fs-italic">
+                STUDIJSKA PROGRAMA
+
+
+            </p>
+        </div>
+
+
+
+        <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-5 col-sm-5 col-12" id="box_shadow">
+            <i class="fas fa-graduation-cap m_icon" style="color: #15be56; font-size: 50px;"></i>
+            <p class="fs-1 purple" style="font-weight: bolder;">
+            3000 </p>
+            <p class="lead small fs-italic">
+               STUDENATA
+            </p>
+        </div>
+
+
+
+        <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-5 col-sm-5 col-12" id="box_shadow">
+            <i class="fas fa-user-friends m_icon" style="color: #bb0852; font-size: 50px; margin-bottom: 10px;"></i>
+            <p class="fs-1 purple" style="font-weight: bolder;">
+            231 </p>
+            <p class="lead small fs-italic">
+                AKADEMSKO I STRUČNO OSOBLJE
+
+
+            </p>
+        </div>
+        </div>
+    </div>
+</section>
+
+<section class="margin_top_section text_center" id="lists">
+    <div class="container">
+    
+           
+            <p class="fs-1 purple" style="font-weight: bolder;">
+                POSJEDUJEMO
+            </p>
+            <div class="row flexbox-center justify-content-evenly" style="margin-top: 50px;">
+<div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12" >
+    <img src="slike/features.png" class="img-fluid" alt="">
+</div>
+<div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12" style="margin-top: 50px;">
+   <div class="container-fluid">
+       <div class="row flexbox-center justify-content-evenly" >
+           <div class="col-xxl-5 col-xl-5 col-lg-6">
+<ul class="list-style-none fs-3" style="font-weight: bolder;">
+    <li class="" id="list">
+        <div class="container-fluid">
+
+      
+        <div class="row flexbox-center justify-content-evenly box_shadow_li" >
+            <div class="col-xxl-2 col-xl-2 bg-purple-light purple-icon">
+                <i class="fas fa-check icon_hover_list "></i>
+            </div>
+            <div class="col-xxl-9 col-xl-9  purple">
+                Apeiron TV 
+            </div>
+            
+        </div>  </div>
+       
+
+    </li>
+    <li class="" id="list">
+        <div class="container-fluid">
+
+      
+        <div class="row flexbox-center justify-content-evenly box_shadow_li" >
+            <div class="col-xxl-2 col-xl-2  bg-purple-light purple-icon">
+                <i class="fas fa-check icon_hover_list "></i>
+            </div>
+            <div class="col-xxl-9 col-xl-9  purple">
+                Digitalno obrazovanje
+            </div>
+            
+        </div>  </div>
+       
+
+    </li>
+    <li class="" id="list">
+        <div class="container-fluid">
+
+      
+        <div class="row justify-content-evenly box_shadow_li" >
+            <div class="col-xxl-2 col-xl-2 bg-purple-light purple-icon">
+                <i class="fas fa-check icon_hover_list "></i>
+            </div>
+            <div class="col-xxl-9 col-xl-9  purple">
+                Studentska praksa
+            </div>
+            
+        </div>  </div>
+       
+
+    </li>
+</ul>
+           </div>
+           <div class="col-xxl-5 col-xl-5 col-lg-6">
+            <ul class="list-style-none fs-3" style="font-weight: bolder;">
+                <li class="" id="list">
+                    <div class="container-fluid">
+            
+                  
+                    <div class="row justify-content-evenly box_shadow_li" >
+                        <div class="col-xxl-2 col-xl-2 bg-purple-light purple-icon">
+                            <i class="fas fa-check icon_hover_list "></i>
+                        </div>
+                        <div class="col-xxl-9 col-xl-9  purple">
+                            Erasmus program
+                        </div>
+                        
+                    </div>  </div>
+                   
+            
+                </li>
+                <li class="" id="list">
+                    <div class="container-fluid">
+            
+                  
+                    <div class="row justify-content-evenly box_shadow_li" >
+                        <div class="col-xxl-2 col-xl-2 bg-purple-light purple-icon">
+                            <i class="fas fa-check icon_hover_list "></i>
+                        </div>
+                        <div class="col-xxl-9 col-xl-9  purple">
+                            Alumni asocijacija
+                        </div>
+                        
+                    </div>  </div>
+                   
+            
+                </li>
+                <li class="" id="list">
+                    <div class="container-fluid">
+            
+                  
+                    <div class="row justify-content-evenly box_shadow_li" >
+                        <div class="col-xxl-2 col-xl-2 bg-purple-light purple-icon">
+                            <i class="fas fa-check icon_hover_list "></i>
+                        </div>
+                        <div class="col-xxl-9 col-xl-9  purple">
+                            Studentski parlament
+                        </div>
+                        
+                    </div>  </div>
+                   
+            
+                </li>
+            </ul>
+                       
+        </div>
+       </div>
+   </div>
+</div>
+            </div> 
+            </div>
+            
+            </section>
+            <section id="about" class="margin_top_section">
+                <div class="container bg-white">
+                    <div class="row flexbox-center">
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+            <p class="lead purple-light">MISIJA I VIZIJA</p>
+            <p class="fs-3 purple">
+                Veliki planovi za vas i nas
+            </p>
+            <a href="#" class="btn-purple">
+                Saznaj Više <span>&larr;</span>
+            </a>
+                        </div>
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                            <img src="slike/features-2.png" class="img-fluid img_hover_scale" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="graph" class="margin_top_section">
+                <div class="container">
+                    <div class="text_center">
+                        <p class="fs-1 purple" style="font-weight: bolder;">
+                            NAUČNI ČASOPISI U IZDANJU UNIVERZITETA!
+                        </p>
+                    </div>
+                    <div class="row flexbox-center justify-content-evenly" style="margin-top: 50px;">
+
+                   
+                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-7 col-sm-12 col-12">
+                        <img src="slike/features-3.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
+                        <div class="container-fluid">
+                            <div class="row flexbox-center justify-content-evenly" style="margin-top: 50px;">
+                                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                 <ul class="list-style-none">
+                                     <li>
+                                         <div class="row flexbox-center justify-content-evenly">
+
+                                        
+                                         <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-3">
+                                            <i class="fas fa-chart-line" style="font-size: 40px;"></i>
+                                         </div> 
+                                         <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-sm-9 col-9">
+                                           <p class="fs-4 purple">
+                                            EMC Review
+                                           </p>
+                                           <p class="small gray" >
+                                            Časopis za ekonomiju i tržišne komunikacije
+                                           </p>
+                                         </div></div>
+                                     </li>
+                                     <li>
+                                        <div class="row flexbox-center justify-content-evenly">
+
+                                       
+                                        <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-3">
+                                           <i class="fas fa-chart-line" style="font-size: 40px;"></i>
+                                        </div> 
+                                        <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-sm-9 col-9">
+                                          <p class="fs-4 purple">
+                                           SNZ
+                                          </p>
+                                          <p class="small gray" >
+                                           Sportske nauke i zdravlje
+                                          </p>
+                                        </div></div>
+                                    </li>
+                                    <li>
+                                        <div class="row flexbox-center justify-content-evenly">
+
+                                       
+                                        <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-3">
+                                           <i class="fas fa-chart-line" style="font-size: 40px;"></i>
+                                        </div> 
+                                        <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-sm-9 col-9">
+                                          <p class="fs-4 purple">
+                                           JITA
+                                          </p>
+                                          <p class="small gray" >
+                                           Journal of Information Technology and Application
+                                          </p>
+                                        </div></div>
+                                    </li>
+                                 </ul>
+                                </div>
+
+
+
+                                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 ">
+                                    <ul class="list-style-none">
+                                        <li>
+                                            <div class="row flexbox-center justify-content-evenly">
+   
+                                           
+                                            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-3">
+                                               <i class="fas fa-chart-line" style="font-size: 40px;"></i>
+                                            </div> 
+                                            <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-sm-9 col-9">
+                                              <p class="fs-4 purple">
+                                                TTTP
+                                              </p>
+                                              <p class="small gray" >
+                                               Traffic and Transport Theory nad Practice
+                                              </p>
+                                            </div></div>
+                                        </li>
+                                        <li>
+                                           <div class="row flexbox-center justify-content-evenly">
+   
+                                          
+                                           <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-3">
+                                              <i class="fas fa-chart-line" style="font-size: 40px;"></i>
+                                           </div> 
+                                           <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-sm-9 col-9">
+                                             <p class="fs-4 purple">
+                                              Nursing Journal
+                                             </p>
+                                             <p class="small gray" >
+                                                Sestrinski žurnal
+                                             </p>
+                                           </div></div>
+                                       </li>
+                                       <li>
+                                           <div class="row flexbox-center justify-content-evenly">
+   
+                                          
+                                           <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-3">
+                                              <i class="fas fa-chart-line" style="font-size: 40px;"></i>
+                                           </div> 
+                                           <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-sm-9 col-9">
+                                             <p class="fs-4 purple">
+                                                FPN
+                                             </p>
+                                             <p class="small gray" >
+                                                Godišnjak Fakulteta pravnih nauka
+                                           </div></div>
+                                       </li>
+                                    </ul>
+                                   </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </section>
+
+
+            <section class="margin_top_section text_center" id="cards">
+                <div class="container">
+                
+                        
+                        <p class="fs-1 purple" style="font-weight: bolder;">
+                           FAKULTETI
+                        </p>
+
+                        </div>
+
+                        <div class="row flexbox-center justify-content-evenly">
+                            <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12" id="skyblue">
+                                <i class="fas fa-pen-fancy fa-5x"></i>
+                                <p class="lead" style="font-size:xx-large;">
+                                    FAKULTET FILOLOŠKIH NAUKA
+                                </p>
+                                <p class="lead">
+                                    Fakultet filoloških nauka je matičan u osnovnim naučnim oblastima preduzetničke ekonomije, menadžmenta, marketinga, upravljanja tržišnim poslovanjem, primjenjene ekonomije, bankarstva, finansija i trgovine, javne uprave, poslovnog prava, poslovne informatike, primjenjenih političkih studija, kao i u sporednim naučnim oblastima koje se takođe izučavaju na Fakultetu, a koje su osnova interdisciplinarnog pristupa: organizacione nauke, teorija odlučivanja, menadžment rizika i upravljanje krizama, projektni menadžment, konfliktni menadžment, E-poslovanje, upravljanje promjenama, komunikologija, međuljudski odnosi i vještine komunikacije, odnosi sa javnošću, matematička ekonomska analiza, vjerovatnoća i statistika.
+                                </p>
+                                <a href="#" class="link">Više &rarr;</a>
+                            </div>
+
+
+
+
+
+
+
+                            <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12" id="orange">
+                                <i class="fas fa-coins fa-5x"></i>
+                                <p class="lead" style="font-size:xx-large;">
+                                    FAKULTET POSLOVNE EKONOMIJE
+                                </p>
+                                <p class="lead">
+                                    Fakultet poslovne ekonomije je matičan u osnovnim naučnim oblastima preduzetničke ekonomije, menadžmenta, marketinga, upravljanja tržišnim poslovanjem, primjenjene ekonomije, bankarstva, finansija i trgovine, javne uprave, poslovnog prava, poslovne informatike, primjenjenih političkih studija, kao i u sporednim naučnim oblastima koje se takođe izučavaju na Fakultetu, a koje su osnova interdisciplinarnog pristupa: organizacione nauke, teorija odlučivanja, menadžment rizika i upravljanje krizama, projektni menadžment, konfliktni menadžment, E-poslovanje, upravljanje promjenama, komunikologija, međuljudski odnosi i vještine komunikacije, odnosi sa javnošću, matematička ekonomska analiza, vjerovatnoća i statistika.
+                                </p>
+                                <a href="#" class="link">Više &rarr;</a>
+                            </div>
+
+
+
+
+
+
+                            <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12" id="green">
+                                <i class="fas fa-balance-scale-right fa-5x"></i>
+                                <p class="lead" style="font-size:xx-large;">
+                                    FAKULTET PRAVNIH NAUKA
+                                </p>
+                                <p class="lead">
+                                    Fakultet pravnih nauka je matičan u osnovnim naučnim oblastima preduzetničke ekonomije, menadžmenta, marketinga, upravljanja tržišnim poslovanjem, primjenjene ekonomije, bankarstva, finansija i trgovine, javne uprave, poslovnog prava, poslovne informatike, primjenjenih političkih studija, kao i u sporednim naučnim oblastima koje se takođe izučavaju na Fakultetu, a koje su osnova interdisciplinarnog pristupa: organizacione nauke, teorija odlučivanja, menadžment rizika i upravljanje krizama, projektni menadžment, konfliktni menadžment, E-poslovanje, upravljanje promjenama, komunikologija, međuljudski odnosi i vještine komunikacije, odnosi sa javnošću, matematička ekonomska analiza, vjerovatnoća i statistika.
+
+                                </p>
+                                <a href="#" class="link">Više &rarr;</a>
+                            </div>
+
+                           
+                        
+
+
+                            <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12" id="red">
+                                <i class="fas fa-desktop fa-5x"></i>
+                                <p class="lead" style="font-size:xx-large;">
+                                    FAKULTET INFORMACIONIH TEHNOLOGIJA
+                                </p>
+                                <p class="lead">
+                                    Fakultet informacionih tehnilogija je matičan u osnovnim naučnim oblastima preduzetničke ekonomije, menadžmenta, marketinga, upravljanja tržišnim poslovanjem, primjenjene ekonomije, bankarstva, finansija i trgovine, javne uprave, poslovnog prava, poslovne informatike, primjenjenih političkih studija, kao i u sporednim naučnim oblastima koje se takođe izučavaju na Fakultetu, a koje su osnova interdisciplinarnog pristupa: organizacione nauke, teorija odlučivanja, menadžment rizika i upravljanje krizama, projektni menadžment, konfliktni menadžment, E-poslovanje, upravljanje promjenama, komunikologija, međuljudski odnosi i vještine komunikacije, odnosi sa javnošću, matematička ekonomska analiza, vjerovatnoća i statistika.
+
+                                    
+
+
+                                </p>
+                                <a href="#" class="link">Više &rarr;</a>
+                            </div>
+
+
+
+
+
+                            <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12" id="purple">
+                                <i class="fas fa-stethoscope fa-5x"></i>
+                                <p class="lead" style="font-size:xx-large;">
+                                    FAKULTET <br> ZDRAVSTVENIH <br> NAUKA
+                                </p>
+                                <p class="lead">
+                                    Fakultet zdravstvenih nauka je matičan u osnovnim naučnim oblastima preduzetničke ekonomije, menadžmenta, marketinga, upravljanja tržišnim poslovanjem, primjenjene ekonomije, bankarstva, finansija i trgovine, javne uprave, poslovnog prava, poslovne informatike, primjenjenih političkih studija, kao i u sporednim naučnim oblastima koje se takođe izučavaju na Fakultetu, a koje su osnova interdisciplinarnog pristupa: organizacione nauke, teorija odlučivanja, menadžment rizika i upravljanje krizama, projektni menadžment, konfliktni menadžment, E-poslovanje, upravljanje promjenama, komunikologija, međuljudski odnosi i vještine komunikacije, odnosi sa javnošću, matematička ekonomska analiza, vjerovatnoća i statistika.
+                                </p>
+                                <a href="#" class="link">Više &rarr;</a>
+                            </div>
+
+
+
+
+
+                            <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12" id="pink">
+                                <i class="fas fa-dumbbell fa-5x"></i>
+                                <p class="lead" style="font-size:xx-large;">
+                                    FAKULTET <br> SPORTSKIH <br> NAUKA
+                                </p>
+                                <p class="lead">
+                                    Fakultet sportskih nauka je matičan u osnovnim naučnim oblastima preduzetničke ekonomije, menadžmenta, marketinga, upravljanja tržišnim poslovanjem, primjenjene ekonomije, bankarstva, finansija i trgovine, javne uprave, poslovnog prava, poslovne informatike, primjenjenih političkih studija, kao i u sporednim naučnim oblastima koje se takođe izučavaju na Fakultetu, a koje su osnova interdisciplinarnog pristupa: organizacione nauke, teorija odlučivanja, menadžment rizika i upravljanje krizama, projektni menadžment, konfliktni menadžment, E-poslovanje, upravljanje promjenama, komunikologija, međuljudski odnosi i vještine komunikacije, odnosi sa javnošću, matematička ekonomska analiza, vjerovatnoća i statistika.
+                                </p>
+                                <a href="#" class="link">Više &rarr;</a>
+                            </div>
+                        </div>
+                        </section>
+
+
+
+
+                            <section class="margin_top_section" id="features5">
+                                <div class="container-fluid">
+                                <div class="text_center">
+                                        
+                                        <p class="fs-1 purple" style="font-weight: bolder;">
+                                            Naše Slike
+                                        </p>
+                </div>
+
+<div class="row justify-content-evenly " style="margin-top: 70px;">
+<div class="col-xxl-3 col-xl-3 col-lg-3 col-md-7 col-sm-7 col-8">
+<div class="pic">
+    <a>
+        <img src="slike/blog-1.jpg" class="img-fluid" alt="">
+    </a>
+</div>
+<div style="padding-left: 10px; padding-right: 10px;">
+<p style="margin-top: 20px;" class="gray small">
+Uto, Septembar 21</p>
+<p class="fs-2 purple">
+    Komunikacija je ključ
+</p></div>
+</div>
+
+
+
+
+<div class="col-xxl-3 col-xl-3 col-lg-3 col-md-7 col-sm-7 col-8">
+    <div class="pic">
+        <a>
+            <img src="slike/blog-2.jpg" class="img-fluid" alt="">
+        </a>
+    </div>
+    <div style="padding-left: 10px; padding-right: 10px;">
+    <p style="margin-top: 20px;" class="gray small">
+    Sri, September 22</p>
+    <p class="fs-2 purple">
+       Inspiracija
+    </p></div>
+    </div>
+
+
+
+
+
+    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-7 col-sm-7 col-8">
+        <div class="pic">
+            <a>
+                <img src="slike/blog-3.jpg" class="img-fluid" alt="">
+            </a>
+        </div>
+        <div style="padding-left: 10px; padding-right: 10px;">
+        <p style="margin-top: 20px;" class="gray small">
+        Pet, September 24</p>
+        <p class="fs-2 purple">
+            Timski duh
+        </p></div>
+        </div>
+</div>
+                                        </div>
+                                        </section>
+
+
+                                        <section class="margin_top_section">
+                                            <div><div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=apeiron%20&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies2.org">fmovieses</a><br><style>.mapouter{position:relative;text-align:right;height:400px;width:100%;}</style><a href="https://www.embedgooglemap.net">how to get google map embed code</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:100%;}</style></div></div></div>
+                                        </section>
+                                        <footer class="footer" style="padding-top: 50px; padding-bottom: 50px;">
+                                            <div class="container">
+                                                <div class="row justify-content-evenly flexbox-center">
+                                                   
+                                  
+
+<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-4 col-sm-12 col-12" style="margin-left:10px;margin-top: 40px; margin-bottom: 40px;">
+    <p class="fs-4 fs-italic purple" style="font-weight: bolder;">BROJEVI</p>
+<ul class="list-style-none gray">
+<li>Studentska služba:<br>
+    Tel: +387 (0) 51 247 983<br>
+     +387 (0) 51 247 984<br>
+    Faks: +387 (0) 430 891</li>
+<li>Rektorat & Menadžment:<br>
+    Tel: +387 (0)51 247 920;<br>
+    Faks: +387 (0)51 247 921<br>
+    </li>
+</ul>
+</div>
+<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-4 col-sm-12 col-12" style="margin-left:10px;margin-top: 40px; margin-bottom: 40px;">
+    <ul class="list-style-none gray">
+<li>Odjeljenje Bijeljina:<br>
+    Tel: +387 (0)55 225 999<br>
+    Faks: +387 (0)55 225 995</li>
+<li>Odjeljenje Novi Grad:<br>
+    Tel: +387 (0)52 720 200<br>
+    Faks: +387 (0)52 720 202</li>
+
+</ul>
+</div> 
+
+
+
+
+<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-4 col-sm-12 col-12" style="margin-top: 20px; margin-bottom: 20px;">
+    <p class="fs-4 fs-italic purple" style="font-weight: bolder;">ADRESA</p>
+<ul class="list-style-none gray">
+<li>
+    Bosna i Hercegovina
+</li>
+<li>
+    Banja Luka
+</li>
+<li>Vojvode Pere Krece 13</li>
+<li>Pošt. fah 51 Banja Luka 78102 
+    </li>
+<li>Email: info@apeiron-edu.eu</li>
+</ul>
+</div>
+                                               
+    
+
+                                         
+                                            </div>
+                                            <hr>
+                     
+                                        </footer>
+                                        <div style="margin-bottom: 50px; margin-top: 50px; text-align: center;" class="fs-4 gray">&copy; Rijad Rekić - 2021</div>
+               
+                                          
+<script src="js/script.js"></script>
+</body>
+</html>
